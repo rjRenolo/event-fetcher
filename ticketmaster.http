@@ -1,0 +1,17 @@
+GET https://app.ticketmaster.com/discovery/v2/events.json?stateCode=FL&keyword=events&countryCode=US&radius=1000&apikey=1SG47kaMYhJqvsXc5Ky9eF98Xe0ER17S HTTP/1.1
+
+
+###
+
+GET http://api.eventful.com/json/events/search?app_key=Vsw2p5hBJfkPRZ4M&where=27.994402,-81.760254&within=1000?oauth_consumer_key=819e35b34e2086058569&oauth_nonce=16680057&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1585705754&oauth_version=1.0&oauth_signature=sho1odEu%2Ft%2FNLHQnIawte2%2BZbJU%3D HTTP/1.1
+
+###
+
+GET http://api.eventful.com/json/events/search?app_key=Vsw2p5hBJfkPRZ4M&where=27.994402,-81.760254&within=65550&oauth_nonce=16680057&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1585705754&oauth_version=1.0&oauth_signature=sho1odEu%2Ft%2FNLHQnIawte2%2BZbJU%3D&category=food&oauth_consumer_key=819e35b34e2086058569 HTTP/1.1
+
+###
+
+GET http://api.eventful.com/json/events/search?app_key=Vsw2p5hBJfkPRZ4M&where=27.994402,-81.760254&within=65550&oauth_nonce=16680057&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1585705754&oauth_version=1.0&oauth_signature=sho1odEu%2Ft%2FNLHQnIawte2%2BZbJU%3D&category=concert&oauth_consumer_key=819e35b34e2086058569 HTTP/1.1
+
+###
+GET http://api.eventful.com/json/events/get?app_key=Vsw2p5hBJfkPRZ4M&id=E0-001-132109319-2 HTTP/1.1
